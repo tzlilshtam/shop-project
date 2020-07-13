@@ -1,0 +1,199 @@
+.headerLeft{
+    float: left;
+    padding: 10px;
+    color: darkgray;
+    font-size: 20px;
+
+}
+.headerRight {
+    float: right;
+    padding: 15px;
+    color: darkgray;
+    font-size: 20px;
+}
+a.highlight{
+    color: darkgrey;
+    text-decoration: none;
+}
+a.highlight:hover{
+    color: rgba(54,54,255,0.8);
+    text-decoration: none;
+}
+.image{
+    height: 200px;
+}
+.title{
+    color: rgba(152,155,255,0.8);
+    font-family: "Arial Black";
+}
+.money{
+    font-family: "Arial Black";
+}
+table, th {
+    border: 3px solid black;
+    background-color:rgba(1,0,3,0.83) ;
+
+}
+button{
+    border-radius: 50px;
+    border-color: rgba(0,0,0,0.20);
+    background-color: rgba(43,41,36,0.87);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.submit{
+    border-radius: 50px;
+    border-color: rgba(0,0,0,0.20);
+    background-color: rgba(43,41,36,0.87);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.logo{
+    width: 36px;
+    text-align: center;
+}
+.logo:hover{
+    width: 48px;
+}
+.width{
+    width: 100%;
+    border: 1px solid black;
+}
+.button{
+    width: 49%;
+    background-color:rgba(43,41,36,0.87);
+    border: 0px;
+    height: 40px;
+    color: whitesmoke;
+}
+
+.description{
+    width: 33%;
+    padding-right: 5%;
+}
+
+h2{
+    font-family: "Arial Black";
+    text-align: center;
+}
+
+.tablepro{
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.about{
+    font-family: 'Arial Black';
+    font-size: 20px;
+}
+
+p.iframe{
+    text-align: center;
+    alignment: center;
+}
+
+.tablehead{
+    height:15%;
+    width: 99%;
+    position:fixed;
+}
+
+.tablecon{
+    width: 100%;
+    background-color: lightgray;
+}
+
+
+.Copyright{
+    background-color: rgba(21,36,30,0.8);
+    color: whitesmoke;
+    position: fixed;
+    height: 25px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.logoalignment{
+    text-align: center;
+}
+
+html{
+    background-color: beige;
+}
+
+{
+    border: 1px solid black;
+}
+
+
+
+
+
+/* Popup container - can be anything you want */
+#cartIcon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+#cartIcon .popuptext {
+    visibility: hidden;
+    width: 430px;
+    font-size: medium;
+    background-color: rgba(1,0,3,0.83);
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    top : 75px;
+    left: 50%;
+    margin-left: -80px;
+}
+#cart{
+    font-family: "Berlin Sans FB";
+    color: black;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+
+/* Popup arrow */
+#cartIcon .popuptext::after {
+
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 21%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+#cartIcon .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
